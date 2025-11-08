@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background: url("background-desktop.png") center center / cover no-repeat,
+    url("pattern-squiggly-line-bottom-desktop.svg") left bottom / 400px
+      no-repeat,
+    url("pattern-circle.svg") left top / 100px no-repeat,
+    url("pattern-squiggly-line-top.svg") right top / 300px no-repeat,
+    url("wide-curve.png") center top / cover no-repeat,
+    url("pattern-lines.svg") center / cover repeat-y;
+
+  background-blend-mode: screen, normal, normal, normal, overlay, normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-family: "Inconsolata", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pattern-lines {
+  z-index: -1;
+}
+.logo {
+  width: 120px;
+  display: block;
+  margin: 20px auto;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+button {
+  background-color: #ff6f61;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #ff3b2e;
+}
+input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: #fff;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.upload {
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.upload img {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+
+  padding: 4px;
+}
+.upload img:hover {
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+.info {
+  display: inline;
+}
+.container {
+  z-index: 1000;
+  text-align: center;
+  position: relative;
+}
+
+.container span {
+  color: #ff6f61;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}

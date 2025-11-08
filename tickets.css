@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("background-desktop.png") center center / cover no-repeat,
+    url("pattern-squiggly-line-bottom-desktop.svg") left bottom / 400px
+      no-repeat,
+    url("pattern-circle.svg") left top / 100px no-repeat,
+    url("pattern-squiggly-line-top.svg") right top / 300px no-repeat,
+    url("wide-curve.png") center top / cover no-repeat,
+    url("pattern-lines.svg") center / cover repeat-y;
+
+  background-blend-mode: screen, normal, normal, normal, overlay, normal;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-family: "Inconsolata", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pattern-lines {
+  z-index: -1;
+}
+.logo {
+  width: 120px;
+  display: block;
+  margin: 10px auto;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
