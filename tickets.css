@@ -33,4 +33,48 @@ h3 {
 p {
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.email {
+  color: #ff6f61;
+}
+.name {
+  background-image: linear-gradient(to right, #f17668, #f3ebea);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.ticket {
+  width: 30rem;
+  position: absolute;
+}
+.event-details {
+}
+.event-details img {
+  width: 180px;
+  position: relative;
+  top: 20px;
+  left: 18px;
+}
+.event-details p {
+  position: relative;
+  top: 12px;
+  text-align: left;
+  left: 60px;
+}
+.avatar {
+  width: 50px;
+  border-radius: 10px;
+  position: relative;
+  left: 18px;
+}
+.avatar-name {
+  position: relative;
+  top: 0px;
+}
+.serial-number {
+  position: relative;
+  right: 10px;
 }
